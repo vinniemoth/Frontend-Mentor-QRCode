@@ -1,0 +1,57 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Oxanium";
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.card {
+  background-color: #fff;
+  padding: 10px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.card,
+img {
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: grey;
+}
